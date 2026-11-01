@@ -1,0 +1,324 @@
+
+/* LOGIN PAGE */
+
+.login-page {
+  min-height: 85vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background: #ffffff;
+  font-family: "Libre Baskerville", serif;
+  box-sizing: border-box;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 470px;
+  padding: 40px 38px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.07);
+  box-sizing: border-box;
+}
+
+.login-card h1 {
+  text-align: center;
+  color: #2F4F4F;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin: 0 0 10px;
+}
+
+.login-welcome {
+  text-align: center;
+  color: #555555;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+/* LOGIN / REGISTER TABS */
+
+.login-tabs {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 28px;
+}
+
+.login-tabs button {
+  width: 50%;
+  padding: 13px;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: #777777;
+  font-family: inherit;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-tabs button.active {
+  color: #2F4F4F;
+  border-bottom-color: #2F4F4F;
+  font-weight: 700;
+}
+
+/* INPUT FIELDS */
+
+.login-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-field label {
+  display: block;
+  color: #222222;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+
+.login-field input {
+  width: 100%;
+  height: 48px;
+  padding: 0 14px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background: #ffffff;
+  color: #222222;
+  font-family: inherit;
+  font-size: 13px;
+  outline: none;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+}
+
+.login-field input:focus {
+  border-color: #2F4F4F;
+  box-shadow: 0 0 0 2px rgba(47, 79, 79, 0.10);
+}
+
+.login-field input::placeholder {
+  color: #999999;
+}
+
+/* SHOW PASSWORD */
+
+.password-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.password-wrapper input {
+  padding-right: 65px;
+}
+
+.password-wrapper button {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  color: #2F4F4F;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* FORGOT PASSWORD */
+
+.forgot-password {
+  display: block;
+  margin: -8px 0 22px auto;
+  padding: 0;
+  background: transparent;
+  border: none;
+  color: #2F4F4F;
+  font-family: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+/* TERMS AND CONDITIONS */
+
+.terms-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  margin: 5px 0 22px;
+  color: #555555;
+  font-size: 11px;
+  line-height: 1.7;
+  cursor: pointer;
+}
+
+.terms-label input {
+  width: 15px;
+  height: 15px;
+  margin-top: 2px;
+  accent-color: #2F4F4F;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+/* MAIN LOGIN BUTTON */
+
+.login-submit {
+  width: 100%;
+  height: 49px;
+  background: #2F4F4F;
+  border: 1px solid #2F4F4F;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-submit:hover {
+  background: #243d3d;
+  border-color: #243d3d;
+}
+
+/* DIVIDER */
+
+.login-divider {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 24px 0;
+  color: #999999;
+  font-size: 11px;
+}
+
+.login-divider::before,
+.login-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #dddddd;
+}
+
+/* GOOGLE LOGIN */
+
+.google-login {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  color: #333333;
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.google-login:hover {
+  background: #f8f8f8;
+  border-color: #2F4F4F;
+}
+
+.google-login strong {
+  font-family: Arial, sans-serif;
+  font-size: 19px;
+  color: #4285F4;
+}
+
+/* LOGIN / REGISTER SWITCH */
+
+.login-switch {
+  margin: 25px 0 0;
+  text-align: center;
+  color: #666666;
+  font-size: 12px;
+}
+
+.login-switch button {
+  background: transparent;
+  border: none;
+  color: #2F4F4F;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.login-switch button:hover {
+  text-decoration: underline;
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+  .login-page {
+    min-height: 80vh;
+    padding: 40px 20px;
+  }
+
+  .login-card {
+    max-width: 450px;
+    padding: 35px 30px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+  .login-page {
+    min-height: 75vh;
+    padding: 30px 15px;
+  }
+
+  .login-card {
+    padding: 30px 22px;
+    border-radius: 9px;
+  }
+
+  .login-card h1 {
+    font-size: 27px;
+  }
+
+  .login-welcome {
+    font-size: 12px;
+  }
+
+  .login-field input {
+    height: 46px;
+    font-size: 12px;
+  }
+
+  .login-submit,
+  .google-login {
+    height: 46px;
+  }
+  .password-strength {
+  margin-top: 7px;
+  font-size: 12px;
+}
+
+.password-field small,
+.login-field small {
+  display: block;
+  margin-top: 6px;
+  font-size: 11px;
+  line-height: 1.5;
+}
+}

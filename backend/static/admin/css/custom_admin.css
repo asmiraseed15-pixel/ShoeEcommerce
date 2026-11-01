@@ -1,0 +1,31 @@
+/* All form fields */
+input,
+textarea,
+select,
+.vTextField,
+.vLargeTextField {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid #cccccc !important;
+}
+
+/* Dropdown */
+select option {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+/* Focus */
+input:focus,
+textarea:focus,
+select:focus {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border-color: #087CF0 !important;
+}
+
+/* Placeholder */
+input::placeholder,
+textarea::placeholder {
+    color: #777777 !important;
+}
