@@ -29,9 +29,9 @@ import front2 from "./assets/front2.png";
 import slide2 from "./assets/Slide2.png";
 import slide3 from "./assets/Slide3.png";
 
-import gents from "./assets/Gents.png";
-import women from "./assets/Women.png";
-import kids from "./assets/Kids.png";
+import gents from "./assets/gents.png";
+import women from "./assets/women.png";
+import kids from "./assets/kids.png";
 
 // Optional fifth slider image
 let slide4;
