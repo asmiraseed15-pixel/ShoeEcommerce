@@ -1,0 +1,1431 @@
+[
+  {
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+      "name": "Sneakers",
+      "slug": "sneakers"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+      "name": "Heels",
+      "slug": "heels"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 3,
+    "fields": {
+      "name": "Belleneries",
+      "slug": "belleneries"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 4,
+    "fields": {
+      "name": "Kids sandals",
+      "slug": "kids-sandals"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 5,
+    "fields": {
+      "name": "Kids Shoe's",
+      "slug": "kids-shoes"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 6,
+    "fields": {
+      "name": "Women",
+      "slug": "women"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 7,
+    "fields": {
+      "name": "Men",
+      "slug": "men"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 8,
+    "fields": {
+      "name": "Kids",
+      "slug": "kids"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "category": 2,
+      "name": "White Heels",
+      "slug": "white-heels",
+      "description": "Comfortable everyday white heels for Stylish one",
+      "price": "1499.00",
+      "original_price": null,
+      "stock": 10,
+      "image_url": "",
+      "image": "products/trending1_ELpJGKp.png",
+      "rating": "0.0",
+      "review_count": 0,
+      "style": "",
+      "brand": "",
+      "colors": [],
+      "sizes": [],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": true,
+      "created_at": "2026-10-28T15:46:28.073Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "category": 2,
+      "name": "Stylish Heels",
+      "slug": "stylish-heels",
+      "description": "Billie Womens Silver Diamante Heel",
+      "price": "3000.00",
+      "original_price": null,
+      "stock": 5,
+      "image_url": "",
+      "image": "products/trending2.jpg",
+      "rating": "0.0",
+      "review_count": 0,
+      "style": "",
+      "brand": "",
+      "colors": [],
+      "sizes": [],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": true,
+      "created_at": "2026-10-30T08:49:36.663Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "category": 3,
+      "name": "Comfortable Wear",
+      "slug": "comfortable-wear",
+      "description": "Drew Womens Navy Diamante Slip on Shoe",
+      "price": "1299.00",
+      "original_price": null,
+      "stock": 15,
+      "image_url": "",
+      "image": "products/trending3.jpg",
+      "rating": "0.0",
+      "review_count": 0,
+      "style": "",
+      "brand": "",
+      "colors": [],
+      "sizes": [],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": true,
+      "created_at": "2026-10-30T08:51:45.704Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "category": 3,
+      "name": "Comfortable for Everyday",
+      "slug": "comfortable-for-everyday",
+      "description": "Drew Womens Blush Diamante Slip on Shoe",
+      "price": "2599.00",
+      "original_price": null,
+      "stock": 5,
+      "image_url": "",
+      "image": "products/trending4.jpg",
+      "rating": "0.0",
+      "review_count": 0,
+      "style": "",
+      "brand": "",
+      "colors": [],
+      "sizes": [],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": true,
+      "created_at": "2026-10-30T08:53:34.112Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "category": 1,
+      "name": "Perfect for Trainers",
+      "slug": "perfect-for-trainers",
+      "description": "Weaver Mens Navy Lace Up Trainer Shoe",
+      "price": "2799.00",
+      "original_price": null,
+      "stock": 10,
+      "image_url": "",
+      "image": "products/trending5.jpg",
+      "rating": "0.0",
+      "review_count": 0,
+      "style": "",
+      "brand": "",
+      "colors": [],
+      "sizes": [],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": true,
+      "created_at": "2026-10-30T08:54:54.767Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "category": 1,
+      "name": "Perfect for Walking",
+      "slug": "perfect-for-walking",
+      "description": "Weaver Mens White Lace Up Trainer",
+      "price": "2259.00",
+      "original_price": null,
+      "stock": 10,
+      "image_url": "",
+      "image": "products/trending6.jpg",
+      "rating": "0.0",
+      "review_count": 0,
+      "style": "",
+      "brand": "",
+      "colors": [],
+      "sizes": [],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": true,
+      "created_at": "2026-10-30T08:55:43.746Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "category": 4,
+      "name": "Comfortable for Walking",
+      "slug": "comfortable-for-walking",
+      "description": "Calista Girls Pink Daisy Print Sandal",
+      "price": "2899.00",
+      "original_price": null,
+      "stock": 5,
+      "image_url": "",
+      "image": "products/trending7.jpg",
+      "rating": "0.0",
+      "review_count": 0,
+      "style": "",
+      "brand": "",
+      "colors": [],
+      "sizes": [],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": true,
+      "created_at": "2026-10-30T08:56:54.336Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "category": 5,
+      "name": "Perfect for kids boys",
+      "slug": "perfect-for-kids-boys",
+      "description": "Colby Boys Blue Dinosaur Canvas",
+      "price": "3299.00",
+      "original_price": null,
+      "stock": 7,
+      "image_url": "",
+      "image": "products/trending8.jpg",
+      "rating": "0.0",
+      "review_count": 0,
+      "style": "",
+      "brand": "",
+      "colors": [],
+      "sizes": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": true,
+      "created_at": "2026-10-30T08:57:48.458Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+      "category": 6,
+      "name": "Women Shoe 1",
+      "slug": "women-shoe-1",
+      "description": "Stylish and comfortable women footwear.",
+      "price": "899.00",
+      "original_price": "1399.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/girls1.png",
+      "rating": "4.5",
+      "review_count": 11,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.160Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+      "category": 6,
+      "name": "Women Shoe 2",
+      "slug": "women-shoe-2",
+      "description": "Stylish and comfortable women footwear.",
+      "price": "999.00",
+      "original_price": "1499.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/girls2.png",
+      "rating": "4.5",
+      "review_count": 12,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.198Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+      "category": 6,
+      "name": "Women Shoe 3",
+      "slug": "women-shoe-3",
+      "description": "Stylish and comfortable women footwear.",
+      "price": "1099.00",
+      "original_price": "1599.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/girls3.png",
+      "rating": "4.5",
+      "review_count": 13,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.198Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+      "category": 6,
+      "name": "Women Shoe 4",
+      "slug": "women-shoe-4",
+      "description": "Stylish and comfortable women footwear.",
+      "price": "1199.00",
+      "original_price": "1699.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/girls4.png",
+      "rating": "4.5",
+      "review_count": 14,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.211Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+      "category": 6,
+      "name": "Women Shoe 5",
+      "slug": "women-shoe-5",
+      "description": "Stylish and comfortable women footwear.",
+      "price": "1299.00",
+      "original_price": "1799.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/girls5.png",
+      "rating": "4.5",
+      "review_count": 15,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.216Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+      "category": 6,
+      "name": "Women Shoe 6",
+      "slug": "women-shoe-6",
+      "description": "Stylish and comfortable women footwear.",
+      "price": "1399.00",
+      "original_price": "1899.00",
+      "stock": 19,
+      "image_url": "",
+      "image": "products/girls6.png",
+      "rating": "4.5",
+      "review_count": 16,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.224Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+      "category": 6,
+      "name": "Women Shoe 7",
+      "slug": "women-shoe-7",
+      "description": "Stylish and comfortable women footwear.",
+      "price": "1499.00",
+      "original_price": "1999.00",
+      "stock": 17,
+      "image_url": "",
+      "image": "products/girls7.png",
+      "rating": "4.5",
+      "review_count": 17,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.232Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 17,
+    "fields": {
+      "category": 6,
+      "name": "Women Shoe 8",
+      "slug": "women-shoe-8",
+      "description": "Stylish and comfortable women footwear.",
+      "price": "1599.00",
+      "original_price": "2099.00",
+      "stock": 19,
+      "image_url": "",
+      "image": "products/girls8.png",
+      "rating": "4.5",
+      "review_count": 18,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.237Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 18,
+    "fields": {
+      "category": 6,
+      "name": "Women Shoe 9",
+      "slug": "women-shoe-9",
+      "description": "Stylish and comfortable women footwear.",
+      "price": "1699.00",
+      "original_price": "2199.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/girl9.png",
+      "rating": "4.5",
+      "review_count": 19,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.245Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 19,
+    "fields": {
+      "category": 6,
+      "name": "Women Shoe 10",
+      "slug": "women-shoe-10",
+      "description": "Stylish and comfortable women footwear.",
+      "price": "1799.00",
+      "original_price": "2299.00",
+      "stock": 18,
+      "image_url": "",
+      "image": "products/girl10.png",
+      "rating": "4.5",
+      "review_count": 20,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.245Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 20,
+    "fields": {
+      "category": 6,
+      "name": "Women Shoe 11",
+      "slug": "women-shoe-11",
+      "description": "Stylish and comfortable women footwear.",
+      "price": "1899.00",
+      "original_price": "2399.00",
+      "stock": 18,
+      "image_url": "",
+      "image": "products/girl11.jpg",
+      "rating": "4.5",
+      "review_count": 21,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.261Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 21,
+    "fields": {
+      "category": 6,
+      "name": "Women Shoe 12",
+      "slug": "women-shoe-12",
+      "description": "Stylish and comfortable women footwear.",
+      "price": "1999.00",
+      "original_price": "2499.00",
+      "stock": 19,
+      "image_url": "",
+      "image": "products/girl12.png",
+      "rating": "4.5",
+      "review_count": 22,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.271Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 22,
+    "fields": {
+      "category": 7,
+      "name": "Men Shoe 1",
+      "slug": "men-shoe-1",
+      "description": "Stylish and comfortable men footwear.",
+      "price": "899.00",
+      "original_price": "1399.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/boy1.png",
+      "rating": "4.5",
+      "review_count": 11,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.284Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 23,
+    "fields": {
+      "category": 7,
+      "name": "Men Shoe 2",
+      "slug": "men-shoe-2",
+      "description": "Stylish and comfortable men footwear.",
+      "price": "999.00",
+      "original_price": "1499.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/boy2.png",
+      "rating": "4.5",
+      "review_count": 12,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.292Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 24,
+    "fields": {
+      "category": 7,
+      "name": "Men Shoe 3",
+      "slug": "men-shoe-3",
+      "description": "Stylish and comfortable men footwear.",
+      "price": "1099.00",
+      "original_price": "1599.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/boy3.png",
+      "rating": "4.5",
+      "review_count": 13,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.301Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 25,
+    "fields": {
+      "category": 7,
+      "name": "Men Shoe 4",
+      "slug": "men-shoe-4",
+      "description": "Stylish and comfortable men footwear.",
+      "price": "1199.00",
+      "original_price": "1699.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/boy4.png",
+      "rating": "4.5",
+      "review_count": 14,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.307Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 26,
+    "fields": {
+      "category": 7,
+      "name": "Men Shoe 5",
+      "slug": "men-shoe-5",
+      "description": "Stylish and comfortable men footwear.",
+      "price": "1299.00",
+      "original_price": "1799.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/boy5.png",
+      "rating": "4.5",
+      "review_count": 15,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.319Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 27,
+    "fields": {
+      "category": 7,
+      "name": "Men Shoe 6",
+      "slug": "men-shoe-6",
+      "description": "Stylish and comfortable men footwear.",
+      "price": "1399.00",
+      "original_price": "1899.00",
+      "stock": 18,
+      "image_url": "",
+      "image": "products/boy6.png",
+      "rating": "4.5",
+      "review_count": 16,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.328Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 28,
+    "fields": {
+      "category": 7,
+      "name": "Men Shoe 7",
+      "slug": "men-shoe-7",
+      "description": "Stylish and comfortable men footwear.",
+      "price": "1499.00",
+      "original_price": "1999.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/boy7.png",
+      "rating": "4.5",
+      "review_count": 17,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.335Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 29,
+    "fields": {
+      "category": 7,
+      "name": "Men Shoe 8",
+      "slug": "men-shoe-8",
+      "description": "Stylish and comfortable men footwear.",
+      "price": "1599.00",
+      "original_price": "2099.00",
+      "stock": 19,
+      "image_url": "",
+      "image": "products/boy8.png",
+      "rating": "4.5",
+      "review_count": 18,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.347Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 30,
+    "fields": {
+      "category": 7,
+      "name": "Men Shoe 10",
+      "slug": "men-shoe-10",
+      "description": "Stylish and comfortable men footwear.",
+      "price": "1799.00",
+      "original_price": "2299.00",
+      "stock": 19,
+      "image_url": "",
+      "image": "products/boy10.png",
+      "rating": "4.5",
+      "review_count": 20,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.360Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 31,
+    "fields": {
+      "category": 7,
+      "name": "Men Shoe 11",
+      "slug": "men-shoe-11",
+      "description": "Stylish and comfortable men footwear.",
+      "price": "1899.00",
+      "original_price": "2399.00",
+      "stock": 18,
+      "image_url": "",
+      "image": "products/boy11.png",
+      "rating": "4.5",
+      "review_count": 21,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.369Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 32,
+    "fields": {
+      "category": 7,
+      "name": "Men Shoe 12",
+      "slug": "men-shoe-12",
+      "description": "Stylish and comfortable men footwear.",
+      "price": "1999.00",
+      "original_price": "2499.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/boy12.png",
+      "rating": "4.5",
+      "review_count": 22,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.379Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 33,
+    "fields": {
+      "category": 8,
+      "name": "Kids Shoe 1",
+      "slug": "kids-shoe-1",
+      "description": "Stylish and comfortable kids footwear.",
+      "price": "899.00",
+      "original_price": "1399.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/kids1.png",
+      "rating": "4.5",
+      "review_count": 11,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.393Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 34,
+    "fields": {
+      "category": 8,
+      "name": "Kids Shoe 2",
+      "slug": "kids-shoe-2",
+      "description": "Stylish and comfortable kids footwear.",
+      "price": "999.00",
+      "original_price": "1499.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/kids2.png",
+      "rating": "4.5",
+      "review_count": 12,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.402Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 35,
+    "fields": {
+      "category": 8,
+      "name": "Kids Shoe 3",
+      "slug": "kids-shoe-3",
+      "description": "Stylish and comfortable kids footwear.",
+      "price": "1099.00",
+      "original_price": "1599.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/kids4.png",
+      "rating": "4.5",
+      "review_count": 13,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.412Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 36,
+    "fields": {
+      "category": 8,
+      "name": "Kids Shoe 4",
+      "slug": "kids-shoe-4",
+      "description": "Stylish and comfortable kids footwear.",
+      "price": "1199.00",
+      "original_price": "1699.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/kids5.png",
+      "rating": "4.5",
+      "review_count": 14,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.421Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 37,
+    "fields": {
+      "category": 8,
+      "name": "Kids Shoe 5",
+      "slug": "kids-shoe-5",
+      "description": "Stylish and comfortable kids footwear.",
+      "price": "1299.00",
+      "original_price": "1799.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/kids6.png",
+      "rating": "4.5",
+      "review_count": 15,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.435Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 38,
+    "fields": {
+      "category": 8,
+      "name": "Kids Shoe 6",
+      "slug": "kids-shoe-6",
+      "description": "Stylish and comfortable kids footwear.",
+      "price": "1399.00",
+      "original_price": "1899.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/kids7.png",
+      "rating": "4.5",
+      "review_count": 16,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.445Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 39,
+    "fields": {
+      "category": 8,
+      "name": "Kids Shoe 7",
+      "slug": "kids-shoe-7",
+      "description": "Stylish and comfortable kids footwear.",
+      "price": "1499.00",
+      "original_price": "1999.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/kids8.png",
+      "rating": "4.5",
+      "review_count": 17,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.459Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 40,
+    "fields": {
+      "category": 8,
+      "name": "Kids Shoe 8",
+      "slug": "kids-shoe-8",
+      "description": "Stylish and comfortable kids footwear.",
+      "price": "1599.00",
+      "original_price": "2099.00",
+      "stock": 20,
+      "image_url": "",
+      "image": "products/kids9.png",
+      "rating": "4.5",
+      "review_count": 18,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.469Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 41,
+    "fields": {
+      "category": 8,
+      "name": "Kids Shoe 9",
+      "slug": "kids-shoe-9",
+      "description": "Stylish and comfortable kids footwear.",
+      "price": "1699.00",
+      "original_price": "2199.00",
+      "stock": 18,
+      "image_url": "",
+      "image": "products/kids10.png",
+      "rating": "4.5",
+      "review_count": 19,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.477Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 42,
+    "fields": {
+      "category": 8,
+      "name": "Kids Shoe 10",
+      "slug": "kids-shoe-10",
+      "description": "Stylish and comfortable kids footwear.",
+      "price": "1799.00",
+      "original_price": "2299.00",
+      "stock": 18,
+      "image_url": "",
+      "image": "products/kids11.png",
+      "rating": "4.5",
+      "review_count": 20,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.489Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 43,
+    "fields": {
+      "category": 8,
+      "name": "Kids Shoe 11",
+      "slug": "kids-shoe-11",
+      "description": "Stylish and comfortable kids footwear.",
+      "price": "1899.00",
+      "original_price": "2399.00",
+      "stock": 15,
+      "image_url": "",
+      "image": "products/kids12.png",
+      "rating": "4.5",
+      "review_count": 21,
+      "style": "Casual",
+      "brand": "StepUp",
+      "colors": [
+        "Black",
+        "White",
+        "Pink",
+        "Blue"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "specifications": [],
+      "is_active": true,
+      "is_trending": false,
+      "created_at": "2026-10-30T16:42:06.496Z"
+    }
+  }
+]
