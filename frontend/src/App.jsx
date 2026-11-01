@@ -399,7 +399,6 @@ function App() {
 
     let matchesCategory = true;
 
-    // When searching, do not restrict results by category
     if (!query) {
       if (["Women", "Men", "Kids"].includes(activeCategory)) {
         matchesCategory =
@@ -560,7 +559,7 @@ function App() {
     alert("You have been logged out successfully.");
   }
 
-  // Place order - frontend demo
+  // Place order - existing frontend demo preserved
   function handleOrderNow(order) {
     try {
       const savedOrders = JSON.parse(
@@ -581,17 +580,14 @@ function App() {
         JSON.stringify(savedOrders)
       );
 
-      // Save latest order for success page
       setLastOrder(newOrder);
 
-      // Clear cart only for Cart checkout
       if (checkoutData?.source === "cart") {
         localStorage.removeItem("stepup_cart");
         setCart([]);
         window.dispatchEvent(new Event("stepup-cart-updated"));
       }
 
-      // Open Order Success page
       setShowCheckout(false);
       setShowLogin(false);
       setShowCart(false);
@@ -627,7 +623,7 @@ function App() {
           : undefined
       }
     >
-      {/* NAVBAR - Existing design preserved */}
+      {/* NAVBAR */}
       <header className="navbar">
         <a
           className="brand-logo"
@@ -671,7 +667,6 @@ function App() {
             <span>Home</span>
           </a>
 
-          {/* ABOUT US */}
           <a
             href="#about"
             onClick={(event) => {
@@ -692,7 +687,6 @@ function App() {
             <span>About Us</span>
           </a>
 
-          {/* CONTACT US */}
           <a
             href="#contact-us"
             onClick={(event) => {
@@ -704,7 +698,6 @@ function App() {
             <span>Contact Us</span>
           </a>
 
-          {/* PROFILE / LOGIN */}
           {currentUser ? (
             <a
               href="#profile"
@@ -729,7 +722,6 @@ function App() {
             </a>
           )}
 
-          {/* ADMIN DASHBOARD - Only for staff users */}
           {currentUser?.is_staff && (
             <a
               href="#admin"
@@ -755,7 +747,6 @@ function App() {
             </a>
           )}
 
-          {/* Wishlist */}
           <a
             href="#wishlist"
             onClick={(event) => {
@@ -806,7 +797,7 @@ function App() {
         </nav>
       </header>
 
-      {/* ORDER SUCCESS / ADMIN / CONTACT / ABOUT / LOGIN / CHECKOUT / PRODUCT / CATEGORY / WISHLIST / CART / HOME */}
+      {/* PAGES */}
       {showProfile ? (
         <Profile
           user={currentUser}
@@ -819,9 +810,7 @@ function App() {
           onBack={goHome}
         />
       ) : showOrderSuccess ? (
-        <OrderSuccess
-          order={lastOrder}
-        />
+        <OrderSuccess order={lastOrder} />
       ) : showContact ? (
         <ContactUs />
       ) : showAbout ? (
@@ -959,13 +948,17 @@ function App() {
               key={`offer-${currentSlide}`}
               className={`hero-offer ${currentOffer.side} ${
                 currentOffer.dark ? "hero-offer-dark" : ""
+              } ${
+                currentSlide < 2 ? "hero-offer-highlight" : ""
               }`}
             >
               <p className="hero-offer-kicker">
                 STEPUP.IN EXCLUSIVE
               </p>
+
               <h2>{currentOffer.title}</h2>
               <h3>{currentOffer.subtitle}</h3>
+
               <p className="hero-offer-description">
                 {currentOffer.description}
               </p>
@@ -998,6 +991,7 @@ function App() {
           <section id="overview" className="overview section-space">
             <p className="eyebrow">DISCOVER STEPUP</p>
             <h2>{aboutPage?.title || "Overview"}</h2>
+
             <p className="overview-text">
               {aboutPage?.content ||
                 "Explore our curated selection of high-quality shoes for every occasion. From durable athletic shoes designed for peak performance to stylish casual sneakers and elegant dress shoes, we offer a diverse range of footwear to suit your needs. Our user-friendly interface makes it easy to browse our collection and find the perfect pair, while detailed product descriptions and high-quality images ensure you make an informed decision. Join our community of style and discover your next favorite shoe!"}
@@ -1206,6 +1200,7 @@ function App() {
                   <p>
                     Try another search or choose a different category.
                   </p>
+
                   <button
                     onClick={() => {
                       setSearchText("");
@@ -1251,7 +1246,7 @@ function App() {
         </main>
       )}
 
-      {/* FOOTER - Existing design preserved */}
+      {/* FOOTER */}
       <footer id="contact" className="footer">
         <div className="footer-main">
           <div className="footer-column contact-column">
@@ -1284,7 +1279,6 @@ function App() {
               Heels
             </a>
 
-            {/* ABOUT US */}
             <a
               href="#about"
               onClick={(event) => {
