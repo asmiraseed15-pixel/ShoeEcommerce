@@ -952,9 +952,7 @@ function App() {
                 currentSlide < 2 ? "hero-offer-highlight" : ""
               }`}
             >
-              <p className="hero-offer-kicker">
-                STEPUP.IN EXCLUSIVE
-              </p>
+              
 
               <h2>{currentOffer.title}</h2>
               <h3>{currentOffer.subtitle}</h3>
